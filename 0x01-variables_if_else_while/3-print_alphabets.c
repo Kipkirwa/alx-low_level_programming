@@ -6,7 +6,7 @@
  * and then in uppercase, followed by a new line.
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	char c = 'a';
 		while (c <= 'z')
@@ -21,5 +21,5 @@ int main (void)
 		c++;
 		}
 		putchar('\n');
-	 	return (0);
+		return (0);
 }
