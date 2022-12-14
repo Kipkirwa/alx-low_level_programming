@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - entry point
- *Description: prints_alphabet followed by a new line
+ *print_alphabet - prints the english alphabet from a-z
+ *
  * Return: 0
  */
 
