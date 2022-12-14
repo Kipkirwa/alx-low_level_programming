@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: program that prints _putchar, followed by a new line  
+ * Description: Program that prints _putchar
  * Return: Always 0.
  */
 
