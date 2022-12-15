@@ -17,9 +17,12 @@ void print_diagonal(int n)
 	{
 		for (co = 1; co <= n; co++)
 		{
-			for (sp = 1; sp < co; sp++)
+			if (co > 1)
 			{
-				_putchar(' ');
+				for (co = 1; sp <= co - 1; sp++)
+				{
+					_putchar(' ');
+				}
 			}
 			_putchar('\\');
 			_putchar('\n');
