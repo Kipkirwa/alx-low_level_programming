@@ -10,12 +10,8 @@
 
 void _puts(char *str)
 {
-	int i = 0;
+	while (*str)
+		_putchar(*str++);
 
-	while (*(str + i) != '\0')
-	{
-		putchar(*(str + i));
-		i++;
-	}
-	putchar(10);
+	_putchar('\n');
 }
