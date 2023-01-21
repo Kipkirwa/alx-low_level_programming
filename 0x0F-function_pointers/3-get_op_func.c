@@ -17,18 +17,11 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	int i;
+	
+	int i = 0;
 
-	i = 0;
-
-	while (i < 5)
-	{
-		if (*ops[i].op == *s && s[1] == 0)
-		{
-			return (ops[i].f);
-		}
+	while (ops[i].op != NULL && *(ops[i].op) != *s)
 		i++;
-	}
-	printf("Error\n");
-	exit(99);
+
+	return (ops[i].f);
 }
